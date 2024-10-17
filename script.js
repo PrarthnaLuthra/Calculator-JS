@@ -9,7 +9,6 @@ function isOperator(value) {
     return value == "+" || value == "-" || value == "*" || value == "/";
 }
 
-
 function callLogic(){
 var value = this.getAttribute('data-value');
 var text = display.textContent.trim();
